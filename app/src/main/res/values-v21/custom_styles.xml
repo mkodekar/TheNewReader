@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <style name="app_bar_theme" parent="@style/Widget.Design.AppBarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="selector_screen_title" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/kala</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/soofed</item>
+    </style>
+
+
+    <style name="recycler_view_theme" parent="Widget.AppCompat.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="source_text_view" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/kala</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:text">@string/select_sources</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/soofed</item>
+    </style>
+
+
+    <style name="error_text_view_style" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/soofed</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="error_button_style" parent="@style/Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:text">@string/exit_button</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/soofed</item>
+        <item name="android:background">@color/cardview_dark_background</item>
+    </style>
+
+
+    <style name="ClickableImageView">
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="headline_textView" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginEnd">45dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:layout_gravity">bottom|start</item>
+        <item name="android:textColor">@color/soofed</item>
+    </style>
+</resources>

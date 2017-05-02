@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kala">#000</color>
+    <color name="soofed">#FFF</color>
+    <color name="hirwa">#21ef88</color>
+
+    <color name="acticles_overlay_bg">#212121</color>
+    <color name="articlesCurrentItemOverlay">@android:color/transparent</color>
+    <color name="articlesItemOverlay">#cc000000</color>
+    <color name="articlesEdgeEffect">#b4ffffff</color>
+    <color name="articlesAccent">#FFC107</color>
+    <color name="error_color">#F44336</color>
+</resources>

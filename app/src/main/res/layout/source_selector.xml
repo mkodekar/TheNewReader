@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.newsreader.thenewsreader.views.SourceView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        style="@style/app_bar_theme"
+        app:elevation="0dp">
+
+        <com.thebrownarrow.customfont.CustomFontTextView
+            style="@style/selector_screen_title"
+            app:custom_typeface="@string/times_new_roman"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <in.myinnos.alphabetsindexfastscrollrecycler.IndexFastScrollRecyclerView
+        android:id="@+id/_sources"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        style="@style/recycler_view_theme"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loadingIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorColor="@color/hirwa"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:indicatorName="LineScalePartyIndicator"/>
+
+    <LinearLayout
+        android:id="@+id/errorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <com.thebrownarrow.customfont.CustomFontTextView
+            android:id="@+id/errorView"
+            style="@style/error_text_view_style"
+            app:custom_typeface="@string/times_new_roman"/>
+
+        <com.thebrownarrow.customfont.CustomFontButton
+            android:id="@+id/exitButton"
+            style="@style/error_button_style"
+            app:custom_typeface="@string/tinos" />
+
+    </LinearLayout>
+
+
+
+
+</com.newsreader.thenewsreader.views.SourceView>

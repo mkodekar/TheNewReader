@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_sources">Select sources</string>
+    <string name="five_allowed">Only Five Sources should be selected</string>
+    <string name="loading">Loading sources</string>
+    <string name="exit_button">Exit</string>
+    <string name="unknown_cause">Unknown Error</string>
+</resources>

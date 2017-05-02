@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="times_new_roman" translatable="false">tomnr.ttf</string>
+    <string name="tinos" translatable="false">tinos.ttf</string>
+</resources>
